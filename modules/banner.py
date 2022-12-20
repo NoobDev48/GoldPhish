@@ -4,7 +4,7 @@ import platform,os
 OsName = platform.uname()[0]
 
 def banner():
-    if OsName == "Windows":
+    if OsName == "Android":
       os.system("cls")
     else:
       os.system("clear")
