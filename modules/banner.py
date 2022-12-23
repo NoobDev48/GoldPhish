@@ -15,6 +15,7 @@ def banner():
     print(Fore.LIGHTWHITE_EX+"• Access Webcam and directly send the image to you!")
     print(Fore.LIGHTWHITE_EX+"• Access Microphone")
     print(Fore.LIGHTWHITE_EX+"*********MADE BY A REAL NIGGA!!*********")
+     print(Fore.LIGHTWHITE_EX+"*********MADE BY A REAL NIGGA!!*********")
 
     print(Style.RESET_ALL)
 
