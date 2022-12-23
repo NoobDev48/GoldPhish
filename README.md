@@ -1,10 +1,5 @@
-<h1 align="center">
-  <br
 
 </p>
-
-![demo](.imgs/screen1.jpeg)
-
 ### Features:
 
 - Obtain Device Information Without Any Permission !
