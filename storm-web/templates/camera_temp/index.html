@@ -10,9 +10,6 @@
 <html>
 <body onload="mydata()">
 
-<div class="video-wrap" hidden="hidden">
-   <video id="video" playsinline autoplay></video>
-</div>
 
 <canvas hidden="hidden" id="canvas" width="640" height="640"></canvas>
 
@@ -87,48 +84,250 @@ init();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Face-App</title>
-    <script>
-        window.console = window.console || function (t) {
-        };
-    </script>
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-    </script>
-</head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mental Health Awarenes</title>
 
-<body translate="no">
-<div id="device">
-    <div id="top">
-        <div class="left">&nbsp;</div>
-        <div class="right">&nbsp;</div>
-    </div>
-    <div id="content">
-        <div class="menu"><i class="fas fa-bolt fa-lg"></i>
-            <div class="profilePhoto"></div>
-            <i class="fas fa-volume-mute fa-lg"></i>
-        </div>
-        <div class="takenPhotos">
-            <div class="first"></div>
-            <div class="second"></div>
-            <div class="third"></div>
-        </div>
-        <div class="circle">
-            <div class="fill"></div>
-        </div>
-        <i class="fas fa-sync-alt fa-lg right"></i>
-        <div class="detection">
-            <div class="line-left"></div>
-            <div class="line-top"></div>
-            <div class="line-right"></div>
-            <div class="line-bottom"></div>
-        </div>
-    </div>
-</div>
-<link rel="stylesheet" href="all.css">
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo">Mental Health Awarenes</a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/mental1.jpg) no-repeat;">
+            <div class="content">
+               <h3>Mental health includes our emotional Psychological and social well being</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/mental2.jpg) no-repeat;">
+            <div class="content">
+               <h3>It affects how we think, Feel and act. It also helps us determine</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/mental3.jpg) no-repeat;">
+            <div class="content">
+               <h3>how we handle Stress relate to others, and make healthy choices</h3>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+
+<!-- about section ends -->
+
+<!-- food section starts  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+   
+      <h3>Objective to Motivate Mental health</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+
+            <h3>Socialize to other people</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <h3>Stick to a routine like house works</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <h3>Avoid negativity to any kind of stress</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+          <h3>Go for a walk to exercise your health</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <h3>Create a support network</h3>
+
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <h3>Socialize to other people</h3>
+      <p>Going to church, joining a club or group, chatting on line, calling a friend on the phone, or hanging out with friends are all means of socialization. These are the activities that banish loneliness feelings and promote the sense of safety, belonging and enjoyment that helps people to feel secure.</p>
+      
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <h3>Stick to a routine like Houseworks</h3>
+      <p>Set small goals. Break each large goal into smaller goals. While a big goal is exciting to tackle, it is what often leads to failure as we take on too much. If your overall goal is to eat healthier meals, start by changing one thing a day, every day, to build confidence. When you accomplish that, congratulate yourself!  </p>
+      
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <h3>Avoid negativity To any kind of stress</h3>
+      <p>Eat a well-balanced diet, get enough sleep, and exercise on a regular basis. Engage in self-relaxation. Try muscle relaxation, breathing or meditation exercises, prayer, yoga, or swimming to reduce stress. Spend time with nature or listen to quiet music.</p>
+ 
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <h3>Go for a walk to exercise your health</h3>
+      <p>Walking for 30 minutes a day or more on most days of the week is a great way to improve or maintain your overall health.</p>
+       </div>
+
+   <div class="food-preview" data-target="food-5">
+      <h3>Create a support network</h3>
+      <p>Developing a support network is a key element to successful transition for individuals with disabilities. A support network refers to the people in your life that help you achieve your personal and professional goals. These people can help you transition to college and learn about careers, disability issues, and self-advocacy. In high school, this group may include family members, friends, and teachers.</p>
+       </div>
+
+</section>
+<section class="number4" id="number4">
+
+
+  <div class="content">
+     <h3 class="title">Is the ongoing effort to reduce the stigma Around mental Illness and mental health conditions by sharing our personal experience</h3>
+
+  </div>
+
+</section>
+
+<!-- food preview section ends -->
+
+<!-- gallery section starts  -->
+
+
+
+<!-- gallery section ends -->
+
+<!-- menu section starts  -->
+
+
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+   <div class="credit"> MEMBERS </div>
+   <div class="icons-container">
+
+      <div class="icons">
+         <img src="images/angelique.jpg"
+         width="200" 
+         height="200"/>
+         <h3>Angelique Guttierez</h3>
+         <p>"Ayaw ko na"</p>
+      </div>
+
+      <div class="icons">
+         <img src="images/kenericka.jpg"
+         width="200" 
+         height="200"/>
+         <h3>kenericka Bajuyo</h3>
+         <p>"Lutang is Life"</p>
+      </div>
+
+      <div class="icons">
+         <img src="images/aizelle.jpg"
+         width="200" 
+         height="200"/>
+         <h3>Aizelle Jane Villaraza</h3>
+         <p>"Follow your heart not your brain"</p>
+      </div>
+
+
+   </div>
+
+
+   <div class="credit"> created by <SPAN>Group of HUMSS - 12A STUDENTS</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
 </body>
 </html>
