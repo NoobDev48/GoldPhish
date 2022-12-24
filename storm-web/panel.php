@@ -30,7 +30,7 @@ else {
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/css/light-theme.min.css" rel="stylesheet">
-    <title>Storm Breaker - V3</title>
+    <title>GoldPhish V1</title>
 
 </head>
 
@@ -46,8 +46,6 @@ else {
 
 <div class="mt-2 d-flex justify-content-center">
     <button class="btn btn-danger m-2" id="btn-listen">Listener Runing / press to stop</button>
-    <button class="btn btn-success m-2" id="btn-listen" onclick=saveTextAsFile(result.value,'log.txt')>Download Logs</button>
-    <button class="btn btn-warning m-2" id="btn-clear">Clear Logs</button>
 </div>
 
 
