@@ -21,6 +21,16 @@ def banner():
     print(Fore.LIGHTWHITE_EX+"2. type python3 goldphish.py to run the script")
     print(Fore.LIGHTWHITE_EX+"3. Make another session and host a NGROK link using 2525 port")
     print(Fore.LIGHTWHITE_EX+"4. Copy the link and give it to the target")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
+    print(Fore.LIGHTWHITE_EX+"TITE")
     
     print(Style.RESET_ALL)
 
